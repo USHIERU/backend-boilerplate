@@ -1,0 +1,9 @@
+{
+    "type": "sqlite",
+    "database": "./src/database/database.db",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/DAO/**/*.ts"
+    ]
+}
